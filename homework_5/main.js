@@ -27,12 +27,8 @@ function calculateSum(arr) {
 function compareArrSum(firstArr, secondArr) {
   const firstSum = calculateSum(firstArr);
   const secondSum = calculateSum(secondArr);
-
-  if (firstSum > secondSum) {
-    return firstArr;
-  } else {
-    return secondArr;
-  }
+  
+  return firstSum > secondSum ? firstArr : secondArr;
 }
 
 const arrOne = createArray(10);
