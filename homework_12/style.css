@@ -1,0 +1,49 @@
+.menu-container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:0;
+    margin:0;
+    position: relative;
+}
+
+.menu-row {
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin:0;
+    position: relative;
+}
+
+.li-item {
+    font-family: monospace; 
+    font-weight: bold;
+    font-size: 20px;
+    color: brown;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.submenu {
+    display: none;
+    padding-left: 0;
+}
+
+.submenu > li {
+    margin-right: 0px;
+}
+
+.li-item:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.li-item:hover .submenu {
+    cursor: pointer;
+    display: block;
+}
