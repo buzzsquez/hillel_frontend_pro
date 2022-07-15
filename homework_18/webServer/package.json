@@ -1,0 +1,15 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node webServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-static":"0.7.11",
+    "node-fetch": "2.6.7"
+  }
+}
